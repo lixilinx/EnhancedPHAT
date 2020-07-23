@@ -118,9 +118,9 @@ for trial = 1 : num_trials
     Failed
 end
 figure;
-semilogy(10*number_frames, Failed(1,:)/num_trials, '.-b')
-hold on; semilogy(10*number_frames, Failed(2,:)/num_trials, 'x-k')
-hold on; semilogy(10*number_frames, Failed(3,:)/num_trials, '*-r')
+semilogy(10*number_frames, 100*Failed(1,:)/num_trials, '.-b')
+hold on; semilogy(10*number_frames, 100*Failed(2,:)/num_trials, 'x-k')
+hold on; semilogy(10*number_frames, 100*Failed(3,:)/num_trials, '*-r')
 xlabel('Length of speech signal (ms)')
 ylabel('Percentage of failed TDOA estimates')
 legend('GCC-PHAT', 'Enhanced GCC-PHAT', 'GEVD-MUSIC')
