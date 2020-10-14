@@ -16,7 +16,7 @@ where mic_distance = 0.11 meter. Note that if the microphones are put inside cer
 
 We have done two sets of recordings, i.e., broadside and endfire. For the broadside case, speech arrives at the array from front direction; for the endfire case, speech arrives from the side direction.
 
-The STFT window is designed by [this method](https://ieeexplore.ieee.org/document/8304771)). Below is an estimated noise coherence function sample. We can see that the predicted noise coherence function is quite accurate, except at frequencies round 1600 Hz. The imaginary part of noise coherence function apparently deviates from 0 there. This possibly is caused by the air conditioner noise, which is somewhat directional. Anyway, we use the theoretically predicted noise coherence function for enhanced GCC-PHAT in the paper, and it works well.     
+The STFT window is designed by [this method](https://ieeexplore.ieee.org/document/8304771). Below is an estimated noise coherence function sample. We can see that the predicted noise coherence function is quite accurate, except at frequencies round 1600 Hz. The imaginary part of noise coherence function apparently deviates from 0 there. This possibly is caused by the air conditioner noise, which is somewhat directional. Anyway, we use the theoretically predicted noise coherence function for enhanced GCC-PHAT in the paper, and it works well.     
 
 ![alt text](https://github.com/lixilinx/EnhancedPHAT/blob/master/coherence.png)
 
