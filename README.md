@@ -22,4 +22,4 @@ The STFT window is designed by [this method](https://ieeexplore.ieee.org/documen
 
 ### Further details on the derivation of ML solutions
 
-Those are given in file ML_solution_derivation.pdf.
+Those are given in file [ML_solution_derivation.pdf](https://github.com/lixilinx/EnhancedPHAT/blob/master/ML_solution_derivation.pdf).
