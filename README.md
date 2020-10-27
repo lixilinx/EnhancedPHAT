@@ -2,7 +2,7 @@
 
 These supplementary materials are prepared for paper:
 
-Xi-Lin Li, On correcting the phase bias of GCC in spatially correlated noise fields, Signal Processing, 2020.
+Xi-Lin Li, [On correcting the phase bias of GCC in spatially correlated noise fields](https://doi.org/10.1016/j.sigpro.2020.107859), Signal Processing, 2020.
 
 Generalized cross-correlation (GCC) is widely used for time difference of arrival (TDOA) estimation, direction-of-arrival (DOA) estimation, and source localization. It is simple, robust, and generally performs well. However, GCC assumes spatially uncorrelated noises, which is unlikely to be true in reality. This paper proposes a simple method to remove the phase bias in GCC by assuming only the knowledge of noise coherence function.  
 
